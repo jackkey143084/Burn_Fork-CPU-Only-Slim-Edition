@@ -1,17 +1,18 @@
 What We Keep
 Crate	Files	Purpose
 
-burn	5	Top-level facade crate
+**burn**	5	Top-level facade crate
 
-burn-std	30	Core primitives, no_std compat
+**burn-std**	30	Core primitives, no_std compat
 
 **burn-backen**d	37	Backend trait definitions
 
 **burn-ir**	9	Intermediate representation
 
-burn-derive	32	Procedural macros
+**burn-derive**	32	Procedural macros
 
  (#[derive(Module)])
+ 
 **burn-tensor**	66	Tensor API
 
 **burn-autodiff**	39	Automatic differentiation
@@ -22,7 +23,7 @@ burn-derive	32	Procedural macros
 
 **burn-optim**	35	Optimizers (SGD, Adam, etc.)
 
-**burn-ndarray	**42	The one backend — pure CPU via ndarray
+**burn-ndarray** 42	The one backend — pure CPU via ndarray
 
 **burn-fusion**	50	Op fusion layer (benefits ndarray perf)
 
@@ -30,8 +31,8 @@ burn-derive	32	Procedural macros
 
 **burn-dispatch**	18	Backend dispatch (stripped to ndarray only)
 
-**burn-trai**n	147	Training loop, learner, metrics
-**
-burn-store**	172	Model serialization (safetensors, burnpack)
+**burn-train**	147	Training loop, learner, metrics
 
-burn-dataset	60	Dataset loading utilities
+**burn-store**	172	Model serialization (safetensors, burnpack)
+
+**burn-dataset**	60	Dataset loading utilities
